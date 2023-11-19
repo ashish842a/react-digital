@@ -22,7 +22,7 @@ function DigitalClock() {
 
     return (
         <div className='box'>
-            <h1 className='container mb-4' style={{ color: "#dfe6e9", marginBottom: "2rem" }}>Digital Clock</h1>
+            <h1 className='container mb-4' style={{ color: "#dfe6e9", marginBottom: "1.3rem" }}>Digital Clock</h1>
             <h1>{formatTime(time)}</h1>
         </div>
     );
